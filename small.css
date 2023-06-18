@@ -1,0 +1,51 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	overflow: auto;
+    background-color: #404258;
+	font-family: "JetBrains Mono", monospace;
+}
+
+a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#container
+{
+	position: relative;
+	padding-left: 32px;
+	padding-right: 32px;
+	font-size: 24px;
+	color: #DDE6ED;
+}
+
+#header
+{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#box
+{
+	position: relative;
+	display: flex;
+	gap: 25px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+table
+{
+	background-color: #2e3247;
+	border-style: solid;
+	border-color: #d1d1d1;
+	width: 90%;
+}
